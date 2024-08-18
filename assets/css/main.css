@@ -1958,7 +1958,11 @@ h1{
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100vh;   display: flex;   align-items: center;   justify-content: center; }
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .slide {
   position: absolute;
@@ -1969,29 +1973,39 @@ h1{
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease, visibility 0.5s ease;
-  z-index: 0; }
+  z-index: 0;
+}
 
 .slide.active {
   opacity: 1;
   visibility: visible;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .hero-bg img {
   width: 100%;
   height: 100%;
-  object-fit: cover;   margin: 0;   padding: 0; }
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
 
-.container {
+.container-slider {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;   height: 100%;   padding: 0; }
+  text-align: center;
+  height: 100%;
+  padding: 0;
+  z-index: 2; /* اضافه کردن z-index */
+}
 
 .slide-title, .slide-subtitle, .slide-btn {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: 3; /* اضافه کردن z-index */
 }
 
 .slide.active .slide-title, 
@@ -1999,4 +2013,7 @@ h1{
 .slide.active .slide-btn {
   opacity: 1;
   transform: translateY(0);
+}
+.text-justify {
+  text-align: justify;
 }

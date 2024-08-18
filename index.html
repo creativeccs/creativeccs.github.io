@@ -1,581 +1,884 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Creative Construction Solutions</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Creative Construction Solutions</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/logo.svg" rel="icon" />
+    <link href="assets/img/logo.svgg" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/logo.svg" rel="icon">
-  <link href="assets/img/logo.svgg" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
-  
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
 
-</head>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="/" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.svg" alt="" />
+          <h1 class="sitename">Creative Construction Solutions</h1>
+        </a>
 
-<body class="index-page">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="" data-lang="home">Home</a></li>
+            <li><a href="#about" data-lang="about">About</a></li>
+            <li><a href="#features" data-lang="features">Features</a></li>
+            <li><a href="#services" data-lang="services">Services</a></li>
+            <li><a href="#contact" data-lang="contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#">
+                <span data-lang="language">Language</span
+                ><i
+                  class="bi bi-chevron-down toggle-dropdown d-md-none d-lg-none d-xl-none"
+                ></i>
+              </a>
+              <ul>
+                <li><a href="#" data-lang-switch="en">English</a></li>
+                <li><a href="#" data-lang-switch="ar">Arabic</a></li>
+              </ul>
+            </li>
+          </ul>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="/" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.svg" alt="">
-        <h1 class="sitename">Creative Construction Solutions</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="" data-lang="home">Home</a></li>
-          <li><a href="#about" data-lang="about">About</a></li>
-          <li><a href="#features" data-lang="features">Features</a></li>
-          <li><a href="#services" data-lang="services">Services</a></li> 
-          <li><a href="#contact" data-lang="contact">Contact</a></li>
-          <li class="dropdown">
-            <a href="#">
-            <span data-lang="language">Language</span><i class="bi bi-chevron-down toggle-dropdown d-md-none d-lg-none d-xl-none"></i>
-          </a>
-            <ul>
-              <li><a href="#" data-lang-switch="en">English</a></li>
-              <li><a href="#" data-lang-switch="ar">Arabic</a></li>
-            </ul>
-          </li>
-          
-        </ul>
-
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
- 
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-      <div class="hero-bg">
-        <img src="assets/img/slides/8.webp" alt="">
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
       </div>
-      <div class="container text-center">
-        <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-lang="welcome" class="">Welcome to</h1>
-          <p data-lang="subwelcom" class="">Creative Construction Solutions<br></p>
-          <div class="d-flex">
-            <a href="#about" class="btn-get-started" data-lang="get_started">Get Started</a>
-           </div>
-         </div>
-      </div>
-    </section><!-- /Hero Section -->
+    </header>
 
-    <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-lg-6">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link" data-lang="real_estate_services">Real Estate Services</a></h4>
-                <p class="description" data-lang="real_estate_services_desc">Providing a range of real estate services including managing property and trade in the local market.</p>
-              </div>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="hero-slider">
+          <div class="slide">
+            <div class="hero-bg">
+              <img src="assets/img/slides/1.webp" alt="" />
             </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-xl-4 col-lg-6">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link" data-lang="construction_services">Construction Services</a></h4>
-                <p class="description" data-lang="construction_services_desc">Building and construction of residential villas and commercial buildings, as well as demolition and renewing facades.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-4 col-lg-6">
-            <div class="service-item d-flex">
-              <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-              <div>
-                <h4 class="title"><a href="#" class="stretched-link" data-lang="maintenance_services">Maintenance Services</a></h4>
-                <p class="description" data-lang="maintenance_services_desc">Comprehensive maintenance services including painting, plastering, plumbing, electrical works, and decoration.</p>
-              </div>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Featured Services Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-6 content">
-            <p class="who-we-are" data-lang="who_we_are">Who We Are</p>
-            <h3 data-lang="visionary_leadership">Visionary Leadership in Real Estate</h3>
-            <p class="fst-italic" data-lang="about_desc">
-              Creative Construction Solutions is dedicated to achieving leadership and excellence in the real estate sector.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span data-lang="about_point_1">Offering specialized real estate services aligned with international standards.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-lang="about_point_2">Contributing to the renaissance of Oman and supporting the local economy.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span data-lang="about_point_3">Expanding investments across all areas of the real estate sector.</span></li>
-            </ul>
-            <a href="#" class="read-more"><span data-lang="read_more">Read More</span><i class="bi bi-arrow-right"></i></a>
-          </div>
-
-          <div class="col-lg-6 about-images">
-            <div class="row gy-4">
-              <div class="col-lg-6">
-                <img src="assets/img/about-company-1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-lg-6">
-                <div class="row gy-4">
-                  <div class="col-lg-12">
-                    <img src="assets/img/about-company-2.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="col-lg-12">
-                    <img src="assets/img/about-company-3.jpg" class="img-fluid" alt="">
-                  </div>
+            <div class="container text-center">
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <h1 data-lang="welcome" class="slide-title">Welcome to</h1>
+                <p data-lang="subwelcome" class="slide-subtitle">
+                  Creative Construction Solutions<br />
+                </p>
+                <div class="d-flex">
+                  <a
+                    href="#about"
+                    class="btn-get-started slide-btn"
+                    data-lang="get_started"
+                    >Get Started</a
+                  >
                 </div>
               </div>
             </div>
-
           </div>
-
-        </div>
-
-      </div>
-    </section><!-- /About Section -->
-
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-          <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
-
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2 data-lang="features">Features</h2>
-        <p data-lang="features_desc">Key features of our services and operations.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-        <div class="row justify-content-between">
-
-          <div class="col-lg-5 d-flex align-items-center">
-
-            <ul class="nav nav-tabs">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                  <i class="bi bi-binoculars"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block" data-lang="market_analysis">Market Analysis & Solutions</h4>
-                    <p data-lang="market_analysis_desc">
-                      Understanding the market needs and providing tailored solutions year after year.
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                  <i class="bi bi-box-seam"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block" data-lang="construction_services">Construction Services</h4>
-                    <p data-lang="construction_services_desc">
-                      Utilizing the latest techniques and continuously developing our labor skills.
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                  <i class="bi bi-brightness-high"></i>
-                  <div>
-                    <h4 class="d-none d-lg-block" data-lang="innovative_solutions">Innovative Solutions</h4>
-                    <p data-lang="innovative_solutions_desc">
-                      Dedicated to providing creative and innovative solutions in the construction industry.
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul><!-- End Tab Nav -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="tab-content">
-
-              <div class="tab-pane fade active show" id="features-tab-1">
-                <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
-
-              <div class="tab-pane fade" id="features-tab-2">
-                <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
-
-              <div class="tab-pane fade" id="features-tab-3">
-                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
-              </div><!-- End Tab Content Item -->
+          <!-- Additional slides can be added here -->
+          <div class="slide">
+            <div class="hero-bg">
+              <img src="assets/img/slides/2.webp" alt="" />
             </div>
-
+            <div class="container text-center">
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <h1 data-lang="welcome" class="slide-title">
+                  Explore Our Projects
+                </h1>
+                <p data-lang="subwelcome" class="slide-subtitle">
+                  Innovative Designs & Solutions<br />
+                </p>
+                <div class="d-flex">
+                  <a
+                    href="#projects"
+                    class="btn-get-started slide-btn"
+                    data-lang="view_projects"
+                    >View Projects</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
-
         </div>
+      </section>
+      <!-- /Hero Section -->
 
-      </div>
+      <!-- Featured Services Section -->
+      <section id="featured-services" class="featured-services section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-xl-4 col-lg-6">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-lang="real_estate_services"
+                      >Real Estate Services</a
+                    >
+                  </h4>
+                  <p class="description" data-lang="real_estate_services_desc">
+                    Providing a range of real estate services including managing
+                    property and trade in the local market.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-    </section><!-- /Features Section -->
+            <div class="col-xl-4 col-lg-6">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-card-checklist"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-lang="construction_services"
+                      >Construction Services</a
+                    >
+                  </h4>
+                  <p class="description" data-lang="construction_services_desc">
+                    Building and construction of residential villas and
+                    commercial buildings, as well as demolition and renewing
+                    facades.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
 
-    <!-- Features Details Section -->
-    <section id="features-details" class="features-details section">
-
-      <div class="container">
-
-        <div class="row gy-4 justify-content-between features-item">
-
-          <div class="col-lg-6">
-            <img src="assets/img/sultan-vision-2.webp" class="img-fluid" alt="">
+            <div class="col-xl-4 col-lg-6">
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-bar-chart"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a
+                      href="#"
+                      class="stretched-link"
+                      data-lang="maintenance_services"
+                      >Maintenance Services</a
+                    >
+                  </h4>
+                  <p class="description" data-lang="maintenance_services_desc">
+                    Comprehensive maintenance services including painting,
+                    plastering, plumbing, electrical works, and decoration.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
           </div>
+        </div>
+      </section>
+      <!-- /Featured Services Section -->
 
-          <div class="col-lg-5 d-flex align-items-center">
-            <div class="content">
-              <h3 data-lang="supporting_oman_vision">Supporting Oman Vision 2040</h3>
-              <p data-lang="supporting_oman_vision_desc">
-                Our objectives align with the vision of Oman to meet the modern renaissance requirements.
-              </p>
-             </div>
-          </div>
-
-        </div><!-- Features Item -->
-
-        <div class="row gy-4 justify-content-between features-item">
-
-          <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1">
-
-            <div class="content">
-              <h3 data-lang="building_trust">Building Trust with Customers</h3>
-              <p data-lang="building_trust_desc">
-                Establishing a solid relationship based on mutual trust with our valued customers.
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 content">
+              <p class="who-we-are" data-lang="who_we_are">Who We Are</p>
+              <h3 data-lang="visionary_leadership">
+                Visionary Leadership in Real Estate
+              </h3>
+              <p class="fst-italic" data-lang="about_desc">
+                Creative Construction Solutions is dedicated to achieving
+                leadership and excellence in the real estate sector.
               </p>
               <ul>
-                <li><i class="bi bi-easel flex-shrink-0"></i> <span data-lang="building_trust_point_1">Expanding services in the construction sector with high standards.</span></li>
-                <li><i class="bi bi-patch-check flex-shrink-0"></i> <span data-lang="building_trust_point_2">Developing innovative real estate services.</span></li>
-                <li><i class="bi bi-brightness-high flex-shrink-0"></i> <span data-lang="building_trust_point_3">Contributing to the local real estate market's growth.</span></li>
+                <li>
+                  <i class="bi bi-check-circle"></i>
+                  <span data-lang="about_point_1"
+                    >Offering specialized real estate services aligned with
+                    international standards.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i>
+                  <span data-lang="about_point_2"
+                    >Contributing to the renaissance of Oman and supporting the
+                    local economy.</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i>
+                  <span data-lang="about_point_3"
+                    >Expanding investments across all areas of the real estate
+                    sector.</span
+                  >
+                </li>
               </ul>
-              <p></p>
-             </div>
+              <a href="#" class="read-more"
+                ><span data-lang="read_more">Read More</span
+                ><i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
 
+            <div class="col-lg-6 about-images">
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <img
+                    src="assets/img/about-company-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-6">
+                  <div class="row gy-4">
+                    <div class="col-lg-12">
+                      <img
+                        src="assets/img/about-company-2.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-lg-12">
+                      <img
+                        src="assets/img/about-company-3.jpg"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
-          </div>
-
-        </div><!-- Features Item -->
-
-      </div>
-
-    </section><!-- /Features Details Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2 data-lang="services">Services</h2>
-        <p data-lang="services_desc">Comprehensive services tailored to meet your needs.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row g-5">
-
-          <div class="col-lg-6">
-            <div class="service-item item-cyan position-relative">
-              <i class="bi bi-activity icon"></i>
-              <div>
-                <h3 data-lang="real_estate_management">Real Estate Management</h3>
-                <p data-lang="real_estate_management_desc">Managing property and creating a solid bridge between owners and investors.</p>
-               </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6">
-            <div class="service-item item-orange position-relative">
-              <i class="bi bi-broadcast icon"></i>
-              <div>
-                <h3 data-lang="trade_in_real_estate">Trade in Real Estate</h3>
-                <p data-lang="trade_in_real_estate_desc">Engaging in the local real estate market with innovative solutions.</p>
-               </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6">
-            <div class="service-item item-teal position-relative">
-              <i class="bi bi-easel icon"></i>
-              <div>
-                <h3 data-lang="construction_services">Construction Services</h3>
-                <p data-lang="construction_services_desc">Building and construction of residential villas and commercial buildings, along with demolition and renewing facades.</p>
-               </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6">
-            <div class="service-item item-red position-relative">
-              <i class="bi bi-bounding-box-circles icon"></i>
-              <div>
-                <h3 data-lang="maintenance_services">Maintenance Services</h3>
-                <p data-lang="maintenance_services_desc">Comprehensive maintenance services including painting, plastering, plumbing, electrical works, and decoration.</p>
-               </div>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-6">
-            <div class="service-item item-indigo position-relative">
-              <i class="bi bi-calendar4-week icon"></i>
-              <div>
-                <h3 data-lang="cleaning_pest_control">Cleaning and Pest Control</h3>
-                <p data-lang="cleaning_pest_control_desc">Providing modern, environmentally friendly cleaning and pest control services.</p>
-               </div>
-            </div>
-          </div><!-- End Service Item -->
-
         </div>
+      </section>
+      <!-- /About Section -->
 
-      </div>
+      <!-- Clients Section -->
+      <section id="clients" class="clients section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-1.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-    </section><!-- /Services Section -->
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-2.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
- 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-3.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2 data-lang="contact">Contact</h2>
-        <p data-lang="contact_desc">Get in touch with us for any inquiries or support.</p>
-      </div><!-- End Section Title -->
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-4.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
-      <div class="container">
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-5.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
 
+            <div class="col-xl-2 col-md-3 col-6 client-logo">
+              <img
+                src="assets/img/clients/client-6.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <!-- End Client Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Clients Section -->
+
+      <!-- Features Section -->
+      <section id="features" class="features section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <h2 data-lang="features">Features</h2>
+          <p data-lang="features_desc">
+            Key features of our services and operations.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-5 d-flex align-items-center">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active show"
+                    data-bs-toggle="tab"
+                    data-bs-target="#features-tab-1"
+                  >
+                    <i class="bi bi-binoculars"></i>
+                    <div>
+                      <h4 class="d-none d-lg-block" data-lang="market_analysis">
+                        Market Analysis & Solutions
+                      </h4>
+                      <p data-lang="market_analysis_desc">
+                        Understanding the market needs and providing tailored
+                        solutions year after year.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#features-tab-2"
+                  >
+                    <i class="bi bi-box-seam"></i>
+                    <div>
+                      <h4
+                        class="d-none d-lg-block"
+                        data-lang="construction_services"
+                      >
+                        Construction Services
+                      </h4>
+                      <p data-lang="construction_services_desc">
+                        Utilizing the latest techniques and continuously
+                        developing our labor skills.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#features-tab-3"
+                  >
+                    <i class="bi bi-brightness-high"></i>
+                    <div>
+                      <h4
+                        class="d-none d-lg-block"
+                        data-lang="innovative_solutions"
+                      >
+                        Innovative Solutions
+                      </h4>
+                      <p data-lang="innovative_solutions_desc">
+                        Dedicated to providing creative and innovative solutions
+                        in the construction industry.
+                      </p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <!-- End Tab Nav -->
+            </div>
+
+            <div class="col-lg-6">
+              <div class="tab-content">
+                <div class="tab-pane fade active show" id="features-tab-1">
+                  <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+
+                <div class="tab-pane fade" id="features-tab-2">
+                  <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+
+                <div class="tab-pane fade" id="features-tab-3">
+                  <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid" />
+                </div>
+                <!-- End Tab Content Item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Features Section -->
+
+      <!-- Features Details Section -->
+      <section id="features-details" class="features-details section">
+        <div class="container">
+          <div class="row gy-4 justify-content-between features-item">
+            <div class="col-lg-6">
+              <img
+                src="assets/img/sultan-vision-2.webp"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-5 d-flex align-items-center">
+              <div class="content">
+                <h3 data-lang="supporting_oman_vision">
+                  Supporting Oman Vision 2040
+                </h3>
+                <p data-lang="supporting_oman_vision_desc">
+                  Our objectives align with the vision of Oman to meet the
+                  modern renaissance requirements.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <div class="row gy-4 justify-content-between features-item">
+            <div class="col-lg-5 d-flex align-items-center order-2 order-lg-1">
+              <div class="content">
+                <h3 data-lang="building_trust">
+                  Building Trust with Customers
+                </h3>
+                <p data-lang="building_trust_desc">
+                  Establishing a solid relationship based on mutual trust with
+                  our valued customers.
+                </p>
+                <ul>
+                  <li>
+                    <i class="bi bi-easel flex-shrink-0"></i>
+                    <span data-lang="building_trust_point_1"
+                      >Expanding services in the construction sector with high
+                      standards.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-patch-check flex-shrink-0"></i>
+                    <span data-lang="building_trust_point_2"
+                      >Developing innovative real estate services.</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-brightness-high flex-shrink-0"></i>
+                    <span data-lang="building_trust_point_3"
+                      >Contributing to the local real estate market's
+                      growth.</span
+                    >
+                  </li>
+                </ul>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img src="assets/img/features-2.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <!-- Features Item -->
+        </div>
+      </section>
+      <!-- /Features Details Section -->
+
+      <!-- Services Section -->
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <h2 data-lang="services">Services</h2>
+          <p data-lang="services_desc">
+            Comprehensive services tailored to meet your needs.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6">
+              <div class="service-item item-cyan position-relative">
+                <i class="bi bi-activity icon"></i>
+                <div>
+                  <h3 data-lang="real_estate_management">
+                    Real Estate Management
+                  </h3>
+                  <p data-lang="real_estate_management_desc">
+                    Managing property and creating a solid bridge between owners
+                    and investors.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6">
+              <div class="service-item item-orange position-relative">
+                <i class="bi bi-broadcast icon"></i>
+                <div>
+                  <h3 data-lang="trade_in_real_estate">Trade in Real Estate</h3>
+                  <p data-lang="trade_in_real_estate_desc">
+                    Engaging in the local real estate market with innovative
+                    solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6">
+              <div class="service-item item-teal position-relative">
+                <i class="bi bi-easel icon"></i>
+                <div>
+                  <h3 data-lang="construction_services">
+                    Construction Services
+                  </h3>
+                  <p data-lang="construction_services_desc">
+                    Building and construction of residential villas and
+                    commercial buildings, along with demolition and renewing
+                    facades.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6">
+              <div class="service-item item-red position-relative">
+                <i class="bi bi-bounding-box-circles icon"></i>
+                <div>
+                  <h3 data-lang="maintenance_services">Maintenance Services</h3>
+                  <p data-lang="maintenance_services_desc">
+                    Comprehensive maintenance services including painting,
+                    plastering, plumbing, electrical works, and decoration.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-6">
+              <div class="service-item item-indigo position-relative">
+                <i class="bi bi-calendar4-week icon"></i>
+                <div>
+                  <h3 data-lang="cleaning_pest_control">
+                    Cleaning and Pest Control
+                  </h3>
+                  <p data-lang="cleaning_pest_control_desc">
+                    Providing modern, environmentally friendly cleaning and pest
+                    control services.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <h2 data-lang="contact">Contact</h2>
+          <p data-lang="contact_desc">
+            Get in touch with us for any inquiries or support.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-geo-alt"></i>
+                <h3 data-lang="address">Address</h3>
+                <p>Al Barakat St, Sib, Muscat, Oman</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-telephone"></i>
+                <h3 data-lang="call_us">Call Us</h3>
+                <p>+968 9982 3023</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-3 col-md-6">
+              <div
+                class="info-item d-flex flex-column justify-content-center align-items-center"
+              >
+                <i class="bi bi-envelope"></i>
+                <h3 data-lang="email_us">Email Us</h3>
+                <p>info@creativeccs.com</p>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+
+          <div class="row gy-4 mt-1">
+            <div class="col-lg-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3655.0990020559143!2d58.20485307533243!3d23.6366252787482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDM4JzExLjkiTiA1OMKwMTInMjYuNyJF!5e0!3m2!1sen!2som!4v1723968235871!5m2!1sen!2som"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <!-- End Google Maps -->
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit" data-lang="send_message">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer position-relative">
+      <div class="container footer-top">
         <div class="row gy-4">
-
-          <div class="col-lg-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-geo-alt"></i>
-              <h3 data-lang="address">Address</h3>
-              <p>Al Barakat St, Sib, Muscat, Oman
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="/" class="logo d-flex align-items-center">
+              <span class="sitename">Creative Construction Solutions</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Oman, Muscat</p>
+              <p>Al Mouj</p>
+              <p class="mt-3">
+                <strong data-lang="phone">Phone:</strong>
+                <span>+968 9982 3023</span>
+              </p>
+              <p>
+                <strong data-lang="email">Email:</strong>
+                <span>info@example.com</span>
               </p>
             </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3 data-lang="call_us">Call Us</h3>
-              <p>+968 9982 3023</p>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
-          </div><!-- End Info Item -->
+          </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3 data-lang="email_us">Email Us</h3>
-              <p>info@creativeccs.com</p>
-            </div>
-          </div><!-- End Info Item -->
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4 data-lang="useful_links">Useful Links</h4>
+            <ul>
+              <li><a href="#" data-lang="home">Home</a></li>
+              <li><a href="#" data-lang="about_us">About us</a></li>
+              <li><a href="#" data-lang="services">Services</a></li>
+              <li>
+                <a href="#" data-lang="terms_of_service">Terms of service</a>
+              </li>
+              <li><a href="#" data-lang="privacy_policy">Privacy policy</a></li>
+            </ul>
+          </div>
 
-        </div>
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4 data-lang="our_services">Our Services</h4>
+            <ul>
+              <li>
+                <a href="#" data-lang="real_estate_management"
+                  >Real Estate Management</a
+                >
+              </li>
+              <li>
+                <a href="#" data-lang="trade_in_real_estate"
+                  >Trade in Real Estate</a
+                >
+              </li>
+              <li>
+                <a href="#" data-lang="construction_services"
+                  >Construction Services</a
+                >
+              </li>
+              <li>
+                <a href="#" data-lang="maintenance_services"
+                  >Maintenance Services</a
+                >
+              </li>
+              <li>
+                <a href="#" data-lang="cleaning_pest_control"
+                  >Cleaning and Pest Control</a
+                >
+              </li>
+            </ul>
+          </div>
 
-        <div class="row gy-4 mt-1">
-          <div class="col-lg-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3655.0990020559143!2d58.20485307533243!3d23.6366252787482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDM4JzExLjkiTiA1OMKwMTInMjYuNyJF!5e0!3m2!1sen!2som!4v1723968235871!5m2!1sen!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>           </div><!-- End Google Maps -->
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit" data-lang="send_message">Send Message</button>
-                </div>
-
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4 data-lang="our_newsletter">Our Newsletter</h4>
+            <p data-lang="newsletter_desc">
+              Subscribe to our newsletter and receive the latest news about our
+              products and services!
+            </p>
+            <form
+              action="forms/newsletter.php"
+              method="post"
+              class="php-email-form"
+            >
+              <div class="newsletter-form">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </div>
+              <div class="loading" data-lang="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message" data-lang="subscription_thank_you">
+                Your subscription request has been sent. Thank you!
               </div>
             </form>
           </div>
-          <!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- /Contact Section -->
-
-  </main>
-
- <!-- Footer -->
- <footer id="footer" class="footer position-relative">
-  <div class="container footer-top">
-    <div class="row gy-4">
-      <div class="col-lg-4 col-md-6 footer-about">
-        <a href="/" class="logo d-flex align-items-center">
-          <span class="sitename">Creative Construction Solutions</span>
-        </a>
-        <div class="footer-contact pt-3">
-          <p>Oman, Muscat</p>
-          <p>Al Mouj</p>
-          <p class="mt-3"><strong data-lang="phone">Phone:</strong> <span>+968 9982 3023</span></p>
-          <p><strong data-lang="email">Email:</strong> <span>info@example.com</span></p>
-        </div>
-        <div class="social-links d-flex mt-4">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
 
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4 data-lang="useful_links">Useful Links</h4>
-        <ul>
-          <li><a href="#" data-lang="home">Home</a></li>
-          <li><a href="#" data-lang="about_us">About us</a></li>
-          <li><a href="#" data-lang="services">Services</a></li>
-          <li><a href="#" data-lang="terms_of_service">Terms of service</a></li>
-          <li><a href="#" data-lang="privacy_policy">Privacy policy</a></li>
-        </ul>
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span data-lang="copyright">Copyright</span>
+          <strong class="px-1 sitename">Creative Construction Solutions</strong
+          ><span data-lang="all_rights_reserved">All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <span data-lang="designed_by">Designed by</span>
+          <a href="https://sbc.om/">Senior Blockchain</a>
+        </div>
       </div>
+    </footer>
 
-      <div class="col-lg-2 col-md-3 footer-links">
-        <h4 data-lang="our_services">Our Services</h4>
-        <ul>
-          <li><a href="#" data-lang="real_estate_management">Real Estate Management</a></li>
-          <li><a href="#" data-lang="trade_in_real_estate">Trade in Real Estate</a></li>
-          <li><a href="#" data-lang="construction_services">Construction Services</a></li>
-          <li><a href="#" data-lang="maintenance_services">Maintenance Services</a></li>
-          <li><a href="#" data-lang="cleaning_pest_control">Cleaning and Pest Control</a></li>
-        </ul>
-      </div>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-      <div class="col-lg-4 col-md-12 footer-newsletter">
-        <h4 data-lang="our_newsletter">Our Newsletter</h4>
-        <p data-lang="newsletter_desc">Subscribe to our newsletter and receive the latest news about our products and services!</p>
-        <form action="forms/newsletter.php" method="post" class="php-email-form">
-          <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-          <div class="loading" data-lang="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message" data-lang="subscription_thank_you">Your subscription request has been sent. Thank you!</div>
-        </form>
-      </div>
-    </div>
-  </div>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <div class="container copyright text-center mt-4">
-    <p>© <span data-lang="copyright">Copyright</span> <strong class="px-1 sitename">Creative Construction Solutions</strong><span data-lang="all_rights_reserved">All Rights Reserved</span></p>
-    <div class="credits">
-      <span data-lang="designed_by">Designed by</span> <a href="https://sbc.om/">Senior Blockchain</a>
-    </div>
-  </div>
-</footer>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/language.js"></script>
-
-</body>
-
+    <script src="assets/js/slide.js"></script>
+    <script src="assets/js/language.js"></script>
+  </body>
 </html>
